@@ -3,6 +3,10 @@
 
 An online store built with Ember and using an Ember service for shopping cart functionality. Features include toggles for product features and a running total price displayed to the user. Uses the ember-paper material design add-on.
 
+## Demo
+
+View a project demo on [Heroku](https://boiling-sea-55127.herokuapp.com/).
+
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
