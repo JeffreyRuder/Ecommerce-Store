@@ -4,9 +4,9 @@ $font-family: 'Raleway', Helvetica, sans-serif !default;
 $primary: "indigo" !default;
 $default-color: "900" !default;
 
-$letter: url('images/letter-paper.jpg');
-$legal: url('images/legal-paper.jpg');
-$tabloid: url('images/tabloid-paper.jpg');
+$letter: url('images/letter-paper-min.jpg');
+$legal: url('images/legal-paper-min.jpg');
+$tabloid: url('images/tabloid-paper-min.jpg');
 
 @import 'ember-paper';
 
