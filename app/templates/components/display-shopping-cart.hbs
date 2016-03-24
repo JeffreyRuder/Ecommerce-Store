@@ -1,6 +1,6 @@
 <h2>Shopping Cart</h2>
 {{#unless shoppingCart.items}}
-  {{#paper-card}}
+  {{#paper-card class="checkout-card"}}
     {{#paper-card-content}}
       <h3>There are no items in the cart yet.</h3>
     {{/paper-card-content}}
@@ -8,7 +8,7 @@
 {{/unless}}
 
 {{#each shoppingCart.items as |item|}}
-{{#paper-card}}
+{{#paper-card class="cart-item" class="checkout-card"}}
   {{#paper-card-content}}
     {{cart-item-tile item=item}}
     {{/paper-card-content}}
@@ -17,7 +17,7 @@
 
 <h3>Total:&nbsp;{{format-price shoppingCart.total}}</h3>
 
-{{#paper-card}}
+{{#paper-card class="checkout-card"}}
   {{#paper-card-content}}
     {{#paper-button class="checkout-button" raised=true primary=true action="checkout"}}Checkout{{/paper-button}}
     {{#if checkout}}

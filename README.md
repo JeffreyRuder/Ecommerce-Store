@@ -5,7 +5,7 @@ An online store built with Ember and using an Ember service for shopping cart fu
 
 ## Demo
 
-View a project demo on [Heroku](https://michael-scott-paper.herokuapp.com/).
+View a live demo on [Heroku](https://michael-scott-paper.herokuapp.com/).
 
 ## Prerequisites
 
