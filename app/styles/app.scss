@@ -105,3 +105,9 @@ a:hover {
   -webkit-background-size: cover;
   background-size: cover;
 }
+
+.Tabloid, .Legal, .Letter {
+  @media screen and (max-width: $layout-breakpoint-md) {
+    height: 300px;
+  }
+}
