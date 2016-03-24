@@ -35,17 +35,21 @@ a:hover {
   width: 90%
 }
 
+.checkout-card {
+  max-width: 1000px;
+}
+
 .checkout-button {
   padding: 5px 15px !important;
-  width: 25%;
+  width: 30%;
 }
 
 #item-count {
   font-size: 25px;
 }
 
-.item-tile-right {
-  text-align: right;
+.cart-item {
+  min-width: 300px;
 }
 
 .main-content {
